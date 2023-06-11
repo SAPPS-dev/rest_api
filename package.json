@@ -1,0 +1,19 @@
+{
+  "name": "@pricepro/rest_api",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "MPPROD",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "publishConfig": {
+    "@pricepro:registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

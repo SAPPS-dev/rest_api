@@ -23,4 +23,4 @@ jobs:
       - run: npm publish
         working-directory: ./dist
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.CI }}
